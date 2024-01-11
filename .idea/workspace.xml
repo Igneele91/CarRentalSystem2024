@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c79df49-a704-44dd-8dcd-3edbe363e887" name="Changes" comment="Controller ORdner und die klassen dazu">
+    <list default="true" id="6c79df49-a704-44dd-8dcd-3edbe363e887" name="Changes" comment="REST-Controller für Frontend-Kommunikation erstellt&#10;&#10;mit Code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/carrentalsystem2024/controller/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/carrentalsystem2024/controller/CarController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/carrentalsystem2024/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/carrentalsystem2024/controller/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/carrentalsystem2024/controller/RentalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/carrentalsystem2024/controller/RentalController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,27 +53,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/fabia/OneDrive/Dokumente/GitHub/CarRentalSystem2024&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.Application.executor": "Run",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/fabia/OneDrive/Dokumente/GitHub/CarRentalSystem2024",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.carrentalsystem2024" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="CarRentalSystem2024" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.carrentalsystem2024.Application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.carrentalsystem2024.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Application" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -98,7 +116,7 @@
       <workItem from="1704830913783" duration="818000" />
       <workItem from="1704889296152" duration="2128000" />
       <workItem from="1704907629094" duration="2817000" />
-      <workItem from="1704910934123" duration="9404000" />
+      <workItem from="1704910934123" duration="9732000" />
     </task>
     <task id="LOCAL-00001" summary="changes und java klassen erstellt">
       <option name="closed" value="true" />
@@ -140,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704920847673</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="REST-Controller für Frontend-Kommunikation erstellt&#10;&#10;mit Code">
+      <option name="closed" value="true" />
+      <created>1704934857478</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1704934857478</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +189,7 @@
     <MESSAGE value="application class erstellt&#10;&#10;mit code und springframework implementiert.&#10;&#10;Und alle in korrekten ordner verschoben" />
     <MESSAGE value="Service-Klassen erstellen&#10;Service-Logik implementieren &#10;&#10;Methoden wie addCar, removeCar oder findAllCars Costumer oder rentals &#10;&#10;Verwende Spring's @Service Annotation" />
     <MESSAGE value="Controller ORdner und die klassen dazu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Controller ORdner und die klassen dazu" />
+    <MESSAGE value="REST-Controller für Frontend-Kommunikation erstellt&#10;&#10;mit Code" />
+    <option name="LAST_COMMIT_MESSAGE" value="REST-Controller für Frontend-Kommunikation erstellt&#10;&#10;mit Code" />
   </component>
 </project>
