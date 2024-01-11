@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c79df49-a704-44dd-8dcd-3edbe363e887" name="Changes" comment="Service-Klassen erstellen&#10;Service-Logik implementieren &#10;&#10;Methoden wie addCar, removeCar oder findAllCars Costumer oder rentals &#10;&#10;Verwende Spring's @Service Annotation">
+    <list default="true" id="6c79df49-a704-44dd-8dcd-3edbe363e887" name="Changes" comment="Controller ORdner und die klassen dazu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/carrentalsystem2024/controller/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/carrentalsystem2024/controller/CarController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/carrentalsystem2024/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/carrentalsystem2024/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/carrentalsystem2024/controller/RentalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/carrentalsystem2024/controller/RentalController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +98,7 @@
       <workItem from="1704830913783" duration="818000" />
       <workItem from="1704889296152" duration="2128000" />
       <workItem from="1704907629094" duration="2817000" />
-      <workItem from="1704910934123" duration="8641000" />
+      <workItem from="1704910934123" duration="9404000" />
     </task>
     <task id="LOCAL-00001" summary="changes und java klassen erstellt">
       <option name="closed" value="true" />
@@ -129,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704918826136</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Controller ORdner und die klassen dazu">
+      <option name="closed" value="true" />
+      <created>1704920847673</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1704920847673</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +162,7 @@
     <MESSAGE value="pom.xml file aktulaisiert für den spring boot anwendung" />
     <MESSAGE value="application class erstellt&#10;&#10;mit code und springframework implementiert.&#10;&#10;Und alle in korrekten ordner verschoben" />
     <MESSAGE value="Service-Klassen erstellen&#10;Service-Logik implementieren &#10;&#10;Methoden wie addCar, removeCar oder findAllCars Costumer oder rentals &#10;&#10;Verwende Spring's @Service Annotation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Service-Klassen erstellen&#10;Service-Logik implementieren &#10;&#10;Methoden wie addCar, removeCar oder findAllCars Costumer oder rentals &#10;&#10;Verwende Spring's @Service Annotation" />
+    <MESSAGE value="Controller ORdner und die klassen dazu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Controller ORdner und die klassen dazu" />
   </component>
 </project>
