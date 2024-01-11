@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c79df49-a704-44dd-8dcd-3edbe363e887" name="Changes" comment="erster run test">
+    <list default="true" id="6c79df49-a704-44dd-8dcd-3edbe363e887" name="Changes" comment="Clean Code Standard interface seprat in repository &#10;&#10;Konfiguriere application.properties für H2 &#10;&#10;JPA-Entity-Klassen und Repositories">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/carrentalsystem2024/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/carrentalsystem2024/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/carrentalsystem2024/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/carrentalsystem2024/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/carrentalsystem2024/Rental.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/carrentalsystem2024/Rental.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +124,7 @@
       <workItem from="1704889296152" duration="2128000" />
       <workItem from="1704907629094" duration="2817000" />
       <workItem from="1704910934123" duration="10124000" />
-      <workItem from="1704965076640" duration="3851000" />
+      <workItem from="1704965076640" duration="4712000" />
     </task>
     <task id="LOCAL-00001" summary="changes und java klassen erstellt">
       <option name="closed" value="true" />
@@ -183,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704935098958</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Clean Code Standard interface seprat in repository &#10;&#10;Konfiguriere application.properties für H2 &#10;&#10;JPA-Entity-Klassen und Repositories">
+      <option name="closed" value="true" />
+      <created>1704975634329</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1704975634329</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +215,7 @@
     <MESSAGE value="Controller ORdner und die klassen dazu" />
     <MESSAGE value="REST-Controller für Frontend-Kommunikation erstellt&#10;&#10;mit Code" />
     <MESSAGE value="erster run test" />
-    <option name="LAST_COMMIT_MESSAGE" value="erster run test" />
+    <MESSAGE value="Clean Code Standard interface seprat in repository &#10;&#10;Konfiguriere application.properties für H2 &#10;&#10;JPA-Entity-Klassen und Repositories" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clean Code Standard interface seprat in repository &#10;&#10;Konfiguriere application.properties für H2 &#10;&#10;JPA-Entity-Klassen und Repositories" />
   </component>
 </project>
