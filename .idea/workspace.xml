@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c79df49-a704-44dd-8dcd-3edbe363e887" name="Changes" comment="Clean Code Standard interface seprat in repository &#10;&#10;Konfiguriere application.properties für H2 &#10;&#10;JPA-Entity-Klassen und Repositories">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="6c79df49-a704-44dd-8dcd-3edbe363e887" name="Changes" comment="pom.xml file anpassung für H2 Datenbank und Jpa">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +36,9 @@
         <option name="url" value="https://github.com/Igneele91/CarRentalSystem2024.git" />
       </UrlAndAccount>
     </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/carrentalsystem2024/repository/RentalRepository.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -124,7 +125,7 @@
       <workItem from="1704889296152" duration="2128000" />
       <workItem from="1704907629094" duration="2817000" />
       <workItem from="1704910934123" duration="10124000" />
-      <workItem from="1704965076640" duration="4712000" />
+      <workItem from="1704965076640" duration="7062000" />
     </task>
     <task id="LOCAL-00001" summary="changes und java klassen erstellt">
       <option name="closed" value="true" />
@@ -190,7 +191,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704975634329</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="pom.xml file anpassung für H2 Datenbank und Jpa">
+      <option name="closed" value="true" />
+      <created>1704976674967</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1704976674967</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +225,7 @@
     <MESSAGE value="REST-Controller für Frontend-Kommunikation erstellt&#10;&#10;mit Code" />
     <MESSAGE value="erster run test" />
     <MESSAGE value="Clean Code Standard interface seprat in repository &#10;&#10;Konfiguriere application.properties für H2 &#10;&#10;JPA-Entity-Klassen und Repositories" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clean Code Standard interface seprat in repository &#10;&#10;Konfiguriere application.properties für H2 &#10;&#10;JPA-Entity-Klassen und Repositories" />
+    <MESSAGE value="pom.xml file anpassung für H2 Datenbank und Jpa" />
+    <option name="LAST_COMMIT_MESSAGE" value="pom.xml file anpassung für H2 Datenbank und Jpa" />
   </component>
 </project>
