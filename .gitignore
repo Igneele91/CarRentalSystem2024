@@ -1,18 +1,16 @@
+# Java specific
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
+# IntelliJ IDEA specific
+.idea/
 *.iws
 *.iml
 *.ipr
 
-### Eclipse ###
+# Eclipse specific
 .apt_generated
 .classpath
 .factorypath
@@ -21,18 +19,26 @@ target/
 .springBeans
 .sts4-cache
 
-### NetBeans ###
+# NetBeans specific
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
 
-### VS Code ###
+# VS Code specific
 .vscode/
 
-### Mac OS ###
+# macOS specific
 .DS_Store
+
+# Angular specific
+AngularFrontendCarRental2024/node_modules/
+AngularFrontendCarRental2024/dist/
+AngularFrontendCarRental2024/.angular-cache/
+
+# other common directories to ignore
+build/
+node_modules/
+
+
