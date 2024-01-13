@@ -9,20 +9,12 @@
 <body>
 <div class="dashboard">
   <aside class="sidebar">
-    <!-- Sidebar Icons with Angular RouterLinks -->
-    <div class="icon">
-      <a routerLink="/home">📊</a>
-    </div>
-    <div class="icon">
-      <a routerLink="/customers">👨‍</a>
-    </div>
-    <div class="icon">
-      <a routerLink="/cars">🚗</a>
-    </div>
-    <div class="icon">
-      <a routerLink="/rentals">⚙️</a>
-    </div>
+    <button class="icon" routerLink="/home">📊</button>   <!-- Dashboard -->
+    <button class="icon" routerLink="/customers">👨‍</button> <!-- Kunden -->
+    <button class="icon" routerLink="/cars">🚗</button> <!-- Autos -->
+    <button class="icon" routerLink="/rentals">⚙️</button> <!-- Vermietungen -->
   </aside>
+
   <main class="main-content">
     <!-- Content Buttons -->
     <button class="content-button">add</button>
