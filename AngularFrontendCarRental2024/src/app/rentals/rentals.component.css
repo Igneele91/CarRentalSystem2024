@@ -47,14 +47,14 @@ body, html {
   background-color: #005f73;
 }
 
+/* Spezifische Stile für die Cars-Seite */
 .image-placeholder {
   width: 100%;
   height: 100px;
-  background-color: #4CAF50;
+  background-color: blueviolet; /* Hintergrundfarbe für die Customers-Seite */
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 20px;
 }
-
