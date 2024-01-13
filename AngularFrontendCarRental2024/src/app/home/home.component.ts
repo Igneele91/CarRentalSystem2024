@@ -2,11 +2,10 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-home',
-  standalone: true,
-  imports: [],
   templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
+  standalone: true,
+  styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
-
+  // Hier kannst du Logik für das Verhalten der Buttons oder andere Interaktionen hinzufügen
 }
