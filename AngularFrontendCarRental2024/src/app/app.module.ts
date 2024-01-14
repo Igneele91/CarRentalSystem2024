@@ -1,17 +1,26 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { HomeComponent } from './home/home.component'; // Stelle sicher, dass der Pfad korrekt ist
+import { AppComponent } from './app.component';
+import { CarsComponent } from './cars/cars.component';
+// Importiere alle anderen Komponenten, die du hast
+import { HomeComponent } from './home/home.component';
+import { CustomersComponent } from './customers/customers.component';
+import { RentalsComponent } from './rentals/rentals.component';
 
 @NgModule({
   declarations: [
+    AppComponent,
     HomeComponent,
-    // Füge hier deine anderen Komponenten hinzu, außer AppComponent
+    CarsComponent,
+    CustomersComponent,
+    RentalsComponent,
+    // Liste hier alle anderen Komponenten, die du hast
   ],
   imports: [
     BrowserModule,
-    // Füge hier weitere benötigte Angular-Module hinzu
+    // Füge hier weitere Angular-Module hinzu, die du benötigst
   ],
   providers: [],
-  bootstrap: [] // Lass dies leer, da AppComponent als Standalone-Komponente verwendet wird
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
