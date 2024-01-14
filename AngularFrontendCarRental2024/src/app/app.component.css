@@ -4,6 +4,7 @@ body, html {
   font-family: Arial, sans-serif;
 }
 
+/* Stile für das Dashboard */
 .dashboard {
   display: flex;
 }
@@ -46,6 +47,7 @@ body, html {
   background-color: #005f73;
 }
 
+/* Spezifische Stile für die Seite */
 .image-placeholder {
   width: 100%;
   height: 100px;

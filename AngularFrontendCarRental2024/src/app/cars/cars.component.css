@@ -4,7 +4,11 @@ body, html {
   font-family: Arial, sans-serif;
 }
 
-.cars-dashboard { display: flex; }
+/* Stile für das Dashboard */
+.cars-dashboard {
+  display: flex;
+}
+
 .cars-sidebar {
   width: 50px;
   background-color: #333;
@@ -14,6 +18,7 @@ body, html {
   align-items: center;
   padding-top: 20px;
 }
+
 .cars-icon {
   background-color: #555;
   color: white;
@@ -21,11 +26,13 @@ body, html {
   margin-bottom: 20px;
   border-radius: 50%;
 }
+
 .cars-main-content {
   flex-grow: 1;
   background-color: #f4f4f4;
   padding: 20px;
 }
+
 .cars-content-button {
   padding: 10px 20px;
   margin-right: 10px;
@@ -35,7 +42,12 @@ body, html {
   border-radius: 5px;
   cursor: pointer;
 }
-.cars-content-button:hover { background-color: #005f73; }
+
+.cars-content-button:hover {
+  background-color: #005f73;
+}
+
+/* Spezifische Stile für die Seite */
 .cars-image-placeholder {
   width: 100%;
   height: 100px;
