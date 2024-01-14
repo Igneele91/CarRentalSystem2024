@@ -1,11 +1,12 @@
 import { Routes } from '@angular/router';
-import { AppComponent } from './app.component'; // Der Pfad muss ggf. angepasst werden
+// Importiere deine Komponenten
+import { HomeComponent } from './home/home.component';  // Pfad anpassen
 import { CarsComponent } from './cars/cars.component';
 import { CustomersComponent } from './customers/customers.component';
 import { RentalsComponent } from './rentals/rentals.component';
 
 export const routes: Routes = [
-  { path: '', component: AppComponent }, // AppComponent als Startseite
+  { path: '', component: HomeComponent }, // HomeComponent als Startseite
   { path: 'cars', component: CarsComponent },
   { path: 'customers', component: CustomersComponent },
   { path: 'rentals', component: RentalsComponent },
