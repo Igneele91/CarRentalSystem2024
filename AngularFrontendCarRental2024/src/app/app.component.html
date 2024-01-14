@@ -9,20 +9,14 @@
 <body>
 <div class="dashboard">
   <aside class="sidebar">
-    <button class="icon" routerLink="/home">📊</button>   <!-- Dashboard -->
+    <button class="icon" routerLink="/">📊</button>   <!-- Dashboard -->
     <button class="icon" routerLink="/customers">👨‍</button> <!-- Kunden -->
     <button class="icon" routerLink="/cars">🚗</button> <!-- Autos -->
     <button class="icon" routerLink="/rentals">⚙️</button> <!-- Vermietungen -->
   </aside>
   <main class="main-content">
-    <!-- Inhaltsbuttons -->
-    <button class="content-button">add</button>
-    <button class="content-button">edit</button>
-    <button class="content-button">delete</button>
-    <!-- Platzhalter für großes Bild oder Inhalt -->
-    <div class="image-placeholder">Car Rental System</div>
+    <router-outlet></router-outlet> <!-- Hier werden die Komponenten gerendert -->
   </main>
 </div>
-<script src="app.component.ts"></script>
 </body>
 </html>
