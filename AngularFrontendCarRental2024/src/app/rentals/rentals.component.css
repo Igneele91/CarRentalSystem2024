@@ -5,11 +5,11 @@ body, html {
 }
 
 /* Stile für das Dashboard */
-.dashboard {
+.rentals-dashboard {
   display: flex;
 }
 
-.sidebar {
+.rentals-sidebar {
   width: 50px;
   background-color: #333;
   height: 100vh;
@@ -19,7 +19,7 @@ body, html {
   padding-top: 20px;
 }
 
-.icon {
+.rentals-icon {
   background-color: #555;
   color: white;
   padding: 10px;
@@ -27,13 +27,13 @@ body, html {
   border-radius: 50%;
 }
 
-.main-content {
+.rentals-main-content {
   flex-grow: 1;
   background-color: #f4f4f4;
   padding: 20px;
 }
 
-.content-button {
+.rentals-content-button {
   padding: 10px 20px;
   margin-right: 10px;
   background-color: #008cba;
@@ -43,15 +43,15 @@ body, html {
   cursor: pointer;
 }
 
-.content-button:hover {
+.rentals-content-button:hover {
   background-color: #005f73;
 }
 
 /* Spezifische Stile für die Cars-Seite */
-.image-placeholder {
+.rentals-image-placeholder {
   width: 100%;
   height: 100px;
-  background-color: blueviolet; /* Hintergrundfarbe für die Customers-Seite */
+  background-color: blueviolet; /* Violett für die Rentals-Seite */
   color: white;
   display: flex;
   justify-content: center;

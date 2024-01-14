@@ -5,11 +5,11 @@ body, html {
 }
 
 /* Stile für das Dashboard */
-.dashboard {
+.customers-dashboard {
   display: flex;
 }
 
-.sidebar {
+.customers-sidebar {
   width: 50px;
   background-color: #333;
   height: 100vh;
@@ -19,7 +19,7 @@ body, html {
   padding-top: 20px;
 }
 
-.icon {
+.customers-icon {
   background-color: #555;
   color: white;
   padding: 10px;
@@ -27,13 +27,13 @@ body, html {
   border-radius: 50%;
 }
 
-.main-content {
+.customers-main-content {
   flex-grow: 1;
   background-color: #f4f4f4;
   padding: 20px;
 }
 
-.content-button {
+.customers-content-button {
   padding: 10px 20px;
   margin-right: 10px;
   background-color: #008cba;
@@ -43,15 +43,15 @@ body, html {
   cursor: pointer;
 }
 
-.content-button:hover {
+.customers-content-button:hover {
   background-color: #005f73;
 }
 
-/* Spezifische Stile für die Cars-Seite */
-.image-placeholder {
+/* Spezifische Stile für die Costumers-Seite */
+.customers-image-placeholder {
   width: 100%;
   height: 100px;
-  background-color: blue; /* Hintergrundfarbe für die Customers-Seite */
+  background-color: blue; /* Blau für die Customers-Seite */
   color: white;
   display: flex;
   justify-content: center;
