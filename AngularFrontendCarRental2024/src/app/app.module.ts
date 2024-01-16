@@ -1,11 +1,12 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
-import { CarsComponent } from './cars/cars.component';
-// Importiere alle anderen Komponenten, die du hast
 import { HomeComponent } from './home/home.component';
+import { CarsComponent } from './cars/cars.component';
 import { CustomersComponent } from './customers/customers.component';
 import { RentalsComponent } from './rentals/rentals.component';
+import { routes } from './app.routes'; // Importiere deine Routen
 
 @NgModule({
   declarations: [
@@ -14,11 +15,12 @@ import { RentalsComponent } from './rentals/rentals.component';
     CarsComponent,
     CustomersComponent,
     RentalsComponent,
-    // Liste hier alle anderen Komponenten, die du hast
+    // Füge hier alle anderen Komponenten hinzu
   ],
   imports: [
     BrowserModule,
-    // Füge hier weitere Angular-Module hinzu, die du benötigst
+    RouterModule.forRoot(routes), // Hier werden deine Routen hinzugefügt
+    // Füge hier weitere Module hinzu, falls nötig
   ],
   providers: [],
   bootstrap: [AppComponent]
