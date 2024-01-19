@@ -12,7 +12,7 @@ public class Car {
     private Long id;
     private String make;
     private String model;
-    // Weitere Attribute...
+    private boolean available; // Hinzugefügtes Attribut
 
     // Getter und Setter für 'id'
     public Long getId() {
@@ -39,6 +39,15 @@ public class Car {
 
     public void setModel(String model) {
         this.model = model;
+    }
+
+    // Getter und Setter für 'available'
+    public boolean isAvailable() {
+        return available;
+    }
+
+    public void setAvailable(boolean available) {
+        this.available = available;
     }
 
     // Optional: Getter und Setter für weitere Attribute...
