@@ -2,7 +2,6 @@ package com.carrentalsystem2024.controller;
 
 import com.carrentalsystem2024.Rental;
 import com.carrentalsystem2024.service.RentalService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -12,8 +11,11 @@ import java.util.List;
 @RequestMapping("/rentals")
 public class RentalController {
 
-    @Autowired
-    private RentalService rentalService;
+    private final RentalService rentalService;
+
+    public RentalController(RentalService rentalService) {
+        this.rentalService = rentalService;
+    }
 
     @GetMapping
     public ResponseEntity<List<Rental>> getAllRentals() {
@@ -21,7 +23,6 @@ public class RentalController {
         return ResponseEntity.ok(rentals);
     }
 
-    // Endpunkt zur Erstellung einer Mietvereinbarung
     @PostMapping
     public ResponseEntity<Rental> createRental(@RequestBody Rental rental) {
         Rental newRental = rentalService.createRental(rental);
