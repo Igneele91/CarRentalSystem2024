@@ -14,6 +14,15 @@ public class Car {
     private String model;
     // Weitere Attribute...
 
+    // Getter und Setter für 'id'
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
     // Getter und Setter für 'make'
     public String getMake() {
         return make;
@@ -32,5 +41,5 @@ public class Car {
         this.model = model;
     }
 
-    // Getter und Setter für weitere Attribute...
+    // Optional: Getter und Setter für weitere Attribute...
 }
