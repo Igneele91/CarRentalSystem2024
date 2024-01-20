@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { CarService } from '../../services/car.service';
-import { Car, SearchCriteria } from '../../models'; // Importieren Sie benötigte Modelle
+import { Car, SearchCriteria } from '../../models';
+
 
 @Component({
   selector: 'app-car-search',
@@ -8,14 +9,18 @@ import { Car, SearchCriteria } from '../../models'; // Importieren Sie benötigt
   styleUrls: ['./car-search.component.css']
 })
 export class CarSearchComponent {
-  searchCriteria: SearchCriteria; // Definieren Sie den Typ für searchCriteria
+  searchCriteria: SearchCriteria | undefined = undefined;
 
   constructor(private carService: CarService) { }
 
   onSearch(): void {
-    this.carService.searchCars(this.searchCriteria).subscribe(cars => {
-      // Verarbeiten Sie die Suchergebnisse
-      console.log(cars); // Beispiel: Loggen der Ergebnisse
-    });
+    if (this.searchCriteria) {
+      this.carService.searchCars(this.searchCriteria).subscribe((cars: Car[]) => {
+        // Verarbeite die Suchergebnisse
+        console.log(cars);
+      });
+    } else {
+      console.error('Suchkriterien sind nicht definiert.');
+    }
   }
 }

@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { CarService } from '../../services/car.service';
-import { RentalData, RentalConfirmation } from '../../models'; // Importieren Sie benötigte Modelle
+import { RentalData, RentalConfirmation } from '../../models';
+
 
 @Component({
   selector: 'app-rent-car',
@@ -8,14 +9,18 @@ import { RentalData, RentalConfirmation } from '../../models'; // Importieren Si
   styleUrls: ['./rent-car.component.css']
 })
 export class RentCarComponent {
-  rentalData: RentalData; // Definieren Sie den Typ für rentalData
+  rentalData: RentalData | undefined = undefined;
 
   constructor(private carService: CarService) { }
 
   onRent(): void {
-    this.carService.rentCar(this.rentalData).subscribe(confirmation => {
-      // Verarbeiten Sie die Bestätigung
-      console.log(confirmation); // Beispiel: Loggen der Bestätigung
-    });
+    if (this.rentalData) {
+      this.carService.rentCar(this.rentalData).subscribe((confirmation: RentalConfirmation) => {
+        // Verarbeite die Bestätigung
+        console.log(confirmation);
+      });
+    } else {
+      console.error('Mietdaten sind nicht definiert.');
+    }
   }
 }
